@@ -21,6 +21,6 @@ def sort012(array, end):
 
 
 if __name__ == '__main__':
-    array = [2, 2, 0, 0, 0, 0, 0, 1,1, 1, 2, 1, 2,  0, 1]
+    array = [2, 2, 0, 0, 0, 0, 0, 1, 1, 1, 2, 1, 2,  0, 1]
     sort012(array, len(array) - 1)
     print(array)
