@@ -7,7 +7,7 @@ def binarySearch(array, left, right, key):
 
     if key == array[mid]:
         return mid
-
+# Splits the array depending on which half the value is on
     elif key < array[mid]:
         return binarySearch(array, left, mid - 1, key)
 
